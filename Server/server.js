@@ -5,13 +5,14 @@ const cors = require("cors");
 const port = 3001
 
 app.use(express.json());
-app.use(
+/*app.use(
   cors({
-    origin: [`http://localhost:5173`],
+    origin: ["192.168.0.110:5173"],
     methods: ["POST", "GET", "PUT", "DELETE"],
     credentials: true,
   })
-);
+);*/
+app.use(cors());
 
 //app.use(express.static("../client/build"));
 

@@ -10,7 +10,7 @@ function App() {
   }, []); 
 
   async function getData() {
-    const all = await axios.get("http://localhost:3001/");
+    const all = await axios.get("http://192.168.0.110:3001/");
     setProducts(all.data);
     console.log(all.data);
   }
