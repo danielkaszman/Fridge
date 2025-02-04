@@ -7,7 +7,7 @@ from google.cloud import vision
 from datetime import datetime
 
 # Google hitelesítési kulcs (JSON fájl)
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "fridge-key.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "raspberry/fridge-key.json"
 
 # MongoDB kapcsolat
 """
