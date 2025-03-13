@@ -1,23 +1,21 @@
-.Container{
-    
-    height: 100vh;
-    z-index: 0;
-    background-color: rgb(96, 96, 96);
-    padding: 10px;
+.Container {
+  height: 100vh;
+  z-index: 0;
+  padding: 10px;
 
-    h1{
-        color: rgb(199, 199, 199);
-        margin-bottom: 20px;
-    }
+  h1 {
+    color: #333333;
+    margin-bottom: 20px;
+  }
 }
 
-.Item{
-    border-radius: 20px;
-    padding-inline: 10vw;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 10px;
-    
-    background-color: rgb(171, 171, 171);
-    
+.Item {
+  border-radius: 20px;
+  padding-inline: 10vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+
+  background-color: #578fca;
+  color: #333333;
 }
